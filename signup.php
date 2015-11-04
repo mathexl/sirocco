@@ -5,7 +5,7 @@ $last_name = $_POST['lastname'];
 $email = $_POST['email'];
 
 
-$to  = 'mathexl@gmail.com'; //
+$to  = 'membership@siroccoapp.com'; //
 
 // subject
 $subject = 'Signed Up!';
@@ -29,8 +29,8 @@ $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
 // Additional headers
-$headers .= 'To: Sirocco <mathexl@gmail.com>' . "\r\n";
-$headers .= 'From: Sirocco Server <mathexl@gmail.com>' . "\r\n";
+$headers .= 'To: Sirocco <membership@siroccoapp.com>' . "\r\n";
+$headers .= 'From: Sirocco Server <membership@siroccoapp.com>' . "\r\n";
 
 // Mail it
 mail($to, $subject, $message, $headers);
