@@ -125,7 +125,7 @@ body{
     width: 100%;
     background-color: rgba(24,24,24,1);
     color:white;
-    height: 98px;
+    height: 120px;
     position:relative;
        -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
