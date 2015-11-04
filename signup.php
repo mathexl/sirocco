@@ -52,6 +52,6 @@ mail($to, $subject, $message, $headers);
 
    <div class="block1">
        <h1><br><span class="spanit">Thank You</span><br>for your interest in Sirocco<br>
-           <div class="micro"><span class="boost">"</span>Our membership team will be in touch with you shortly."</div>
+           
        </h1>
    </div>
